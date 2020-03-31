@@ -21,7 +21,7 @@
   });
 
   function showCarDetails() {
-    if (/* Page is Valid*/) {
+    if (/Page is valid/) {
       // Show the car details section (dvCarDetails)
     }
     else {
@@ -32,7 +32,7 @@
   }
 
   function showPersonalDetails() {
-    if (/* Page is Valid*/) {
+    if (/Page is Valid/) {
       // Show the car details section (dvCarDetails)
     }
     else {
@@ -42,7 +42,7 @@
   }
 
   function showQuoteDetails() {
-        if (/* Page is Valid*/) {
+        if (/Page is Valid/) {
           // Show the car details section (dvCarDetails)
         }
         else {
@@ -83,7 +83,8 @@
 
   // This function will control the top navigation and set the active tab when you make a section transition
   // You will need to call it and pass in the tab that needs to be made active
-  function setActiveNavigation(activeTab) {
+  function setActiveNavigation(activeTab) 
+  {
     $(".nav li").removeClass("active");
 
     $("#" + activeTab).addClass("active");
