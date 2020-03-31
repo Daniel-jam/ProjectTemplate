@@ -6,17 +6,17 @@
 
     $("#personalLink a").click(function(){
       showPersonalDetails(); 
-      return false;
+      return true;
     });
 
     $("#carLink a").click(function(){
       showCarDetails(); 
-      return false;
+      return true;
     });
 
     $("#quoteLink a").click(function(){
       showQuoteDetails(); 
-      return false;
+      return true;
     });
   });
 
@@ -25,7 +25,7 @@
       // Show the car details section (dvCarDetails)
     }
     else {
-      // Hide the personal details section (dvPersonalDetails)
+  // Hide the personal details section (dvPersonalDetails)
   // Hide the quote section (dvQuoteDetails)
     }
 
@@ -46,7 +46,7 @@
           // Show the car details section (dvCarDetails)
         }
         else {
-          // Hide the personal details section (dvPersonalDetails)
+      // Hide the personal details section (dvPersonalDetails)
       // Hide the quote section (dvQuoteDetails)
         }
   }
