@@ -32,15 +32,23 @@
   }
 
   function showPersonalDetails() {
-      // Hide the car details section (dvCarDetails)
+    if ($("#textname").val() !="") {
+      // Hide the personal details section (dvPersonalDetails)
       // Hide the quote section (dvQuoteDetails)
-      // Show the personal details section (dvPersonalDetails)
+        }
+        else {
+      // Show the car details section (dvCarDetails)
+        }
   }
 
   function showQuoteDetails() {
-      // Hide the car details section (dvCarDetails)
-      // Hide the personal details section (dvQuoteDetails)
-      // Show the quote section (dvPersonalDetails)
+    if ($("#textname").val() !="") {
+      // Hide the personal details section (dvPersonalDetails)
+      // Hide the quote section (dvQuoteDetails)
+        }
+        else {
+      // Show the car details section (dvCarDetails)
+        }
   }
 
   function getQuote() {
