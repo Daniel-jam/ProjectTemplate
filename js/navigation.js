@@ -21,33 +21,33 @@
   });
 
   function showCarDetails() {
-      if ($("#textname").val() !="") {
-    // Hide the personal details section (dvPersonalDetails)
-    // Hide the quote section (dvQuoteDetails)
-      }
-      else {
-    // Show the car details section (dvCarDetails)
-      }
+    if (/* Page is Valid*/) {
+      // Show the car details section (dvCarDetails)
+    }
+    else {
+      // Hide the personal details section (dvPersonalDetails)
+  // Hide the quote section (dvQuoteDetails)
+    }
 
   }
 
   function showPersonalDetails() {
-    if ($("#textname").val() !="") {
-      // Hide the personal details section (dvPersonalDetails)
-      // Hide the quote section (dvQuoteDetails)
-        }
-        else {
+    if (/* Page is Valid*/) {
       // Show the car details section (dvCarDetails)
-        }
+    }
+    else {
+  // Hide the personal details section (dvPersonalDetails)
+  // Hide the quote section (dvQuoteDetails)
+    }
   }
 
   function showQuoteDetails() {
-    if ($("#textname").val() !="") {
-      // Hide the personal details section (dvPersonalDetails)
-      // Hide the quote section (dvQuoteDetails)
+        if (/* Page is Valid*/) {
+          // Show the car details section (dvCarDetails)
         }
         else {
-      // Show the car details section (dvCarDetails)
+          // Hide the personal details section (dvPersonalDetails)
+      // Hide the quote section (dvQuoteDetails)
         }
   }
 
