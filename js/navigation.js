@@ -21,10 +21,13 @@
   });
 
   function showCarDetails() {
-      
+      if ($("#textname").val() !="") {
     // Hide the personal details section (dvPersonalDetails)
     // Hide the quote section (dvQuoteDetails)
+      }
+      else {
     // Show the car details section (dvCarDetails)
+      }
 
   }
 
